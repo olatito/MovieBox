@@ -9,13 +9,16 @@ function MovieInfo(props){
                 <li>{props.year}</li>
                 <li>{props.ageRating}</li>
                 <li>{props.time}</li>
-                <button>{props.genre}</button> 
-                <button>{props.genre}</button>
+                {
+                    props.genres?.map((genre, id) => {
+                        return(
+                            <button key={id}>{genre.name}</button> 
+                        )
+                    })
+                }
             </div>
             <div>
-                <p>After thirty years, Maverick is still pushing the envelope as a top naval aviator,
-                but must confront ghosts of his past when he leads TOP GUN's elite graduates
-                on a mission that demands the ultimate sacrifice from those chosen to fly it.</p>
+                <p>{props.overview}</p>
             </div>
             <div className="castCrew">
                 <p>Director: {props.director}</p>

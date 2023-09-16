@@ -4,12 +4,16 @@
     justify-content: center;
     display: flex;
     padding-bottom: 50px;
-    
-    
-
+}
+.innerMovieCard{
+    width:80%;
 }
 .cardPoster{
-    height: 370px;
+    height: 380px;
+}
+.cardPoster img{
+   width: 100%;
+   height: 100%;
 }
 
 .cardYear{
