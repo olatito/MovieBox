@@ -1,0 +1,44 @@
+.MovieCard{
+    font-family: sans-serif;
+    width: 25%;
+    justify-content: center;
+    display: flex;
+    padding-bottom: 50px;
+    
+    
+
+}
+.cardPoster{
+    height: 370px;
+}
+
+.cardYear{
+    color: #9CA3AF;
+    font-size: 12px;
+    height:15.62px;
+    padding-bottom: 10px;
+
+
+}
+
+.movieTitle {
+color : #111827;
+font-size: 18px;
+height:  23.44px;
+}
+.rating{
+    display: flex;
+    position: relative;
+    justify-content: start;
+    padding-top: 0px;
+}
+.ratingImage{
+    padding-left: 75px;
+}
+
+
+.genre {
+    color:#9CA3AF;
+    font-size: 12px;
+    height: 15.6px;
+}

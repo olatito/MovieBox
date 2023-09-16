@@ -1,0 +1,41 @@
+.movieInfo{
+    width: calc(100% - 400px);
+}
+
+.topInfo{
+    display: flex;
+    justify-content: space-between;
+    width: 774px;
+    padding-top: 20px;
+}
+
+.castCrew{
+    color: #BE123C;
+}
+
+.awardButton{
+    border-radius:10px ;
+    background-color: #BE123C;
+    width: 253px;
+    color: white;
+    height: 55px;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+}
+
+.awardRate{
+    display: flex;
+    width: 532px ;
+    height: 55px;
+    border-radius: 10px;
+    background-color: #C7C7C7;
+    color: black;
+}
+
+.nominations{
+    color: black;
+    justify-content: center;
+    display: flex;
+    padding-left: 20px;
+}

@@ -1,0 +1,41 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    padding-top: 100px;
+    gap: 36px;
+    padding-bottom: 100px;
+}
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: black;
+}
+
+.inner-footer-wrapper{
+    width: 492px;
+}
+
+.socials{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    font-family: sans-serif;
+    padding-bottom: 30px;
+}
+
+.footerNotes{
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    justify-items: center;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    color:#6B7280;
+    line-height: 23.44px;
+    height: 23px;
+    
+}

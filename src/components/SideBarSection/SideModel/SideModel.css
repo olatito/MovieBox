@@ -1,0 +1,17 @@
+.ticket{
+    justify-content: center;
+    display: flex;
+    width: 400px;
+    height: 55px;
+    padding-right: 20px;
+}
+
+.moreMovies{
+    justify-content: center;
+    display: flex;
+}
+.sideImage{
+    width: 360px;
+    height: 229px;
+    border-radius: 10px;
+}
